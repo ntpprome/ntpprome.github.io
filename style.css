@@ -1,1 +1,94 @@
+/* ---------- Global Styles ---------- */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* ---------- Header ---------- */
+header {
+  background: linear-gradient(120deg, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* ---------- Sections ---------- */
+section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #2575fc;
+  border-bottom: 2px solid #2575fc;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* ---------- Skills ---------- */
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#skills li {
+  background: #e6eaff;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+/* ---------- Projects ---------- */
+.project {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.project h3 {
+  color: #6a11cb;
+}
+
+/* ---------- Contact ---------- */
+#contact a {
+  color: #2575fc;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #666;
+}
 
